@@ -1,0 +1,22 @@
+.sign-cart p{
+    font-size: 12px;
+  }
+  .sign-secs{
+    display: flex ;
+    align-content: center;
+    align-items: center;
+    margin-right: 28px;
+  }
+  .inners{
+    text-align: center;
+    gap: 18px;
+    font-size: 17px;
+    padding-right: 12px;
+    display: flex;
+    
+    align-content: center;
+    align-items: center;
+  }
+  .inners p{
+ 
+  }

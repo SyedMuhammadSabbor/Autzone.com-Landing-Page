@@ -1,0 +1,20 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d52b1e;
+    color: #fff;
+    padding: 6px 4px;
+    border-radius: 4px;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 2;
+}

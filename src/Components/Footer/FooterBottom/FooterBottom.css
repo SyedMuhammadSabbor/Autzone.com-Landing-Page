@@ -1,0 +1,38 @@
+.fb h2{
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2rem;
+    letter-spacing: .75px;
+    color: #fff ;
+    margin-bottom: 14px;
+}
+.fb {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.central {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+ 
+}
+.int{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  text-align: center;
+  color: #a9aaa8;
+    
+    flex-flow: row wrap;
+}
+ .int a {
+    color: #a9aaa8;
+    margin: 0 20px;
+
+ }
+ .int span {
+    color: #a9aaa8;
+ }

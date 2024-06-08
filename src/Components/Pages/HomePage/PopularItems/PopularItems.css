@@ -1,0 +1,177 @@
+.popular{
+    max-width: 1600px;
+    margin: 0 ;
+    padding: 0;
+}
+.heading{
+    margin-left: 0;
+    font-family: AutoZoneCond, HelveticaNeue-Condensed, Open Sans Condensed, Arial, sans-serif;
+    font-size: 1.728rem;
+    letter-spacing: .02rem;
+    line-height: 1.12;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    color: black;
+
+    font-weight: 700;
+}
+
+.underline {
+    width: 84px;
+    height: 4px;
+    background-color: #f26100;
+    transform: skewX(-30deg);
+}
+.customCarousal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.carouse{
+    margin-left: -16px !important;
+}
+.market {
+    /* width: 100%; */
+    margin: 0 4px ;
+    
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    height: 100%;
+
+    padding: 12px;
+    border-radius: 4px;
+    transition: box-shadow .25s, transform .25s;
+
+    box-shadow: 0 1px 5px rgba(32, 33, 36, 0.12), 0 2px 2px rgba(32, 33, 36, 0.14);
+    /* transition: box-shadow 0.25s, transform 0.25s; */
+  }
+  .market-2{
+    margin: 0 8px ;
+    
+  }
+  .market:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.07), 0 4px 5px 0 rgba(0,0,0,.06), 0 1px 6px 0 rgba(0,0,0,.1);
+    transform: scale(1.06);
+}
+
+/* .market{
+    width:160px;
+
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    height: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(32,33,36,.12), 
+                0 2px 2px rgba(32,33,36,.14);
+    transition: box-shadow .25s, transform .25s;
+    /* display: flex; */
+
+.Product-name {
+    min-height: 70px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000;
+    text-align: left;
+    font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.market-pic{
+    padding: 0 8px 8px;
+  
+}
+.market img{
+    width: 100px;
+    height: 100px;
+object-fit: contain;
+}
+.advertise{
+    font-size: 12px;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+Rating{
+
+    font-size: 12px;
+}
+.price{
+    font-weight: 700;
+    font-size: 18px ;
+    line-height: 24px ;
+    color: #000;
+    margin: 0;
+    width: 135.2px;
+
+    text-align: left;
+}
+.one-sided{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+.ones{
+    display: flex;
+    width: 33.3333%;
+    justify-content: center;
+    padding: 8px;
+
+}
+.texts{
+    margin-left: 24px;
+    text-align: start;
+}
+.texts p{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .4px;
+}
+.texts .hi{
+    width: 100%;
+    color: #202124;
+    font-size: 20px;
+    letter-spacing: .75px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+}
+.rise img{
+    min-height: 70px;
+    height: auto;
+    /* object-fit: contain; */
+    width: 100%;
+  
+}
+.offer {
+    display: flex;
+    width: calc(100%-16px);
+    gap: 8px;
+    padding-right: 8px;
+    font-size: 12px; 
+
+    
+}
+.offer img{
+    flex-basis: 50%;
+    flex-grow: 0;
+    max-width: 50%;
+    padding: 8px  0 ;
+
+    object-fit: contain;
+}
+.fort {
+    margin: 32px 0;
+    font-size: 12px;
+    letter-spacing: .4px;
+    line-height: 1.333;
+    text-transform: none;
+    font-weight: 400;
+    white-space: normal;
+
+}

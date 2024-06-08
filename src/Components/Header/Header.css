@@ -1,0 +1,73 @@
+.top-header{
+    padding: 20px 20px 20px 28px;
+}
+.info{
+
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 32px;
+  width: 100%;
+  margin-left: 1.5rem;
+
+}
+.para ::before , .para ::after{
+  content: "";
+  position: absolute;
+  height: 35px;
+  font-size: 40px;
+  top: 23px;
+  line-height: 40px;
+  background-color: #e6e6e6;
+  width: 1px;
+  transform: rotate(25deg);
+
+}
+.para ::before {
+  left: 320px;
+}
+.para ::after{
+  left: 790px;
+}
+.first{
+  font-weight: 900;
+}
+.second{
+  font-size: 12px;
+  line-height: 1;
+}
+.logosection{
+    display: flex;
+  
+}
+
+.sign-cart{
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.sign-cart img{
+  color: transparent;
+}
+.sign-cart p{
+  font-size: 12px;
+}
+.sign-sec{
+  display: flex ;
+  align-content: center;
+  align-items: center;
+  padding: 0 8px;
+  
+}
+.inner{
+  text-align: center;
+  padding: 0 8px;
+
+}

@@ -1,0 +1,15 @@
+.rating {
+    display: inline-block; /* Allow inline display */
+    font-size: 12px; 
+    /* Adjust font size as needed */
+  }
+  
+  .star {
+    color: #ccc; /* Default star color (gray) */
+    cursor: default; /* Prevent hover effects */
+  }
+  
+  .star.filled {
+    color: orangered; /* Color for filled stars */
+  }
+  

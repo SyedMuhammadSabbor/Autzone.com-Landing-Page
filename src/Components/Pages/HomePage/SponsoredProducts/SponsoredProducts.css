@@ -1,0 +1,11 @@
+.sizing{
+    font-size: 14px;
+    line-height: 1;
+    color: #202124;
+    vertical-align: top;
+}
+.am{
+    vertical-align: top;    
+    font-weight: 400;
+    unicode-bidi: isolate;
+}

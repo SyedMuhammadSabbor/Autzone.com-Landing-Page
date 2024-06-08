@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 28px;
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+  .add-vehicle {
+    display: flex;
+    flex-direction: ;
+  }
+  .menu-icon,
+  .location-icon {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-bar {
+    width: 75%;
+    margin-left: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 100%;
+    padding: 14.21px 135px 14.21px 40px;
+    outline: none;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 19.6px;
+    border-radius: 8px;
+    font-family: HelveticaNeue-Medium, sans-serif;
+    color: #202124;
+    text-overflow: ellipsis;
+  }
+  .search-bar button{
+    background: transparent;
+    line-height: 16px;
+    background: none;
+    border: none;
+    padding:  15px  ;
+    position: absolute;
+    cursor: pointer;
+    font: inherit;
+      margin: 0;
+      box-sizing: inherit;
+    overflow: visible;
+    text-align:center;
+  }
+  .headings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px ;
+    
+  }
+  .lines{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    width: 100%;
+    margin-left: 1.rem;
+    cursor: pointer;
+    font-size: 12px;
+
+  }
+
+.ext {
+  color: #1f7400;
+  font-weight: 400;
+  
+}

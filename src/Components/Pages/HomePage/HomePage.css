@@ -1,0 +1,29 @@
+.Home{
+    margin: 32px 0;
+    padding: 0 20px;
+}
+.popular{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+.heading{
+    margin-left: 0;
+    font-family: AutoZoneCond, HelveticaNeue-Condensed, Open Sans Condensed, Arial, sans-serif;
+    font-size: 1.728rem;
+    letter-spacing: .02rem;
+    line-height: 1.12;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    color: black;
+    font-weight: 700;
+}
+.underline {
+    width: 84px;
+    height: 4px;
+    background-color: #f26100;
+    transform: skewX(-30deg);
+}
+.uppermost {
+    margin: 32px 0;
+}

@@ -1,0 +1,75 @@
+.box{
+    background-color: #fff;
+    transition: box-shadow .25s, transform .25s;
+    max-width: none;
+    border: solid #e6e6e6;
+    border-width: 0 1px 1px 0;
+    height: 200px;
+    justify-content: space-evenly;
+    min-width: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+    max-height: 228px;
+    max-width: 378px;
+    flex-basis: 16.666%;
+}
+.box:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.07), 0 4px 5px 0 rgba(0,0,0,.06), 0 1px 6px 0 rgba(0,0,0,.1);
+    transform: scale(1.06);
+}
+.box img{
+    width: 106px;
+    height: 106px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.end{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.cont {
+    flex-basis: 25%;
+    flex-grow: 0;
+    max-width: 25%;
+}
+.childs {
+    font-size: 14px;
+
+    margin-top: 16px;
+    margin-bottom: 4px;
+    max-width: 250px;
+    line-height: 20px;
+
+}
+.naming h2{
+    margin: 0 0 12px;
+    font-family: HelveticaNeue-Bold, sans-serif;
+    font-size: 16px;
+    height: auto;
+    line-height: 1.5;
+    font-weight: 700;
+    font-stretch: condensed;
+    letter-spacing: .75px;
+    margin-bottom: 12px;
+    color: #484848;
+
+}
+.a2{
+    width:"100%"
+}
+.a2 p{
+    letter-spacing: normal;
+    line-height: 1.5;
+    text-transform: none;
+    font-weight: 400;
+    white-space: normal;
+}
+.a1 h2{
+    width: 100%;
+}
